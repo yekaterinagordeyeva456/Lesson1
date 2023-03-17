@@ -3,7 +3,7 @@ import Lesson1.Book;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Книга 1: ");
+        System.out.println("Книга 1:");
         Author authorName1 = new Author("Лев", "Толстой");
         Book book1 = new Book(authorName1, "Война и Мир", 1996);
         System.out.println("book1.name = " + book1.getName());
